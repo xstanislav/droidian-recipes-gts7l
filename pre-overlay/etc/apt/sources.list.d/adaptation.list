@@ -1,0 +1,2 @@
+deb [trusted=yes] https://xstanislav.github.io/kernel_samsung_sm8250_gts7l/ ./
+deb [trusted=yes] https://xstanislav.github.io/adaptation-samsung-gts7l/ ./

@@ -1,14 +1,14 @@
 # Packages
-.gts7xlwifi_packages:
-  packages: &gts7xlwifi_packages
-    - adaptation-samsung-gts7xlwifi
-    - adaptation-samsung-gts7xlwifi-configs
+.gts7l_packages:
+  packages: &gts7l_packages
+    - adaptation-samsung-gts7l
+    - adaptation-samsung-gts7l-configs
 
 # Devices
-gts7xlwifi-phosh:
+gts7l-phosh:
   type: image
   arch: arm64
   edition: phosh
   variant: tablet
   apilevel: 30
-  packages: *gts7xlwifi_packages
+  packages: *gts7l_packages
